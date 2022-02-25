@@ -103,5 +103,5 @@ func (t *Table) RenderHTML() (buffer string) {
 	}
 	rowsText = append(rowsText, "</tbody>\n")
 
-	return "<table border="1">\n" + strings.Join(rowsText, "") + "</table>\n"
+	return "<table border='1'>\n" + strings.Join(rowsText, "") + "</table>\n"
 }
